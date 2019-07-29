@@ -6,7 +6,7 @@ import os, sys
 from yaml import safe_load
 # python -m pip install pyyaml
 
-conf = safe_load(open("ftp_cfg.yml", 'rb').read())
+conf = safe_load(open("ftp_cfg.yml", 'r'))
 
 print conf.get("subj")
 
