@@ -1,37 +1,21 @@
-############################复合结构##########################
-#对象和数组可以结合使用，形成复合结构
+# 对象 py str
+subj: what
 
-# 数组
+# 数组 py list
 languages:
     - Ruby
     - Perl
     - Python
 
-# 复合
-websites:
-    YAML: yaml.org
-    Ruby: ruby-lang.org
-    Python: python.org
-    Perl: use.perl.org
-# 'languages': ['Ruby', 'Perl', 'Python']
-# 'websites': {'Python': 'python.org', 'YAML': 'yaml.org', 'Ruby': 'ruby-lang.org', 'Perl': 'use.perl.org'}
-
-db:
-    host: xxx
-    port: 3306
-    user: weibospider
-    password: xxx
-    db_name: weibo
-    db_type: mysql
-
-# 'db': {'host': 'xxx', 'db_name': 'weibo', 'user': 'weibospider', 'db_type': 'mysql', 'password': 'xxx', 'port': 3306}
-
+# 复合 py dict
 ftp_0:
     ipaddr: 10.120.xx.xx
     usrname: ftpuser
     passwd: ftpuser
+    port: 21
 
 ftp_1:
     ipaddr: 10.162.xx.xx
     usrname: zilla
     passwd: sinhj
+    port: 21
