@@ -1,0 +1,20 @@
+stdin stdout stderr 对应 文件描述符 0, 1, 2
+
+
+
+2>&1 >/dev/null
+
+// stderr -> stdout; stdout -> /dev/null
+// echo stderr
+
+
+
+>/dev/null 2>&1
+
+// stdout -> /dev/null; stderr -> stdout
+// no echo
+
+
+
+&> /dev/null
+// no echo
